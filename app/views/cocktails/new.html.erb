@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>New cocktail</h2>
+
+  <div class="form-style">
+    <%= simple_form_for @cocktail do |f| %>
+      <%= f.input :name %>
+      <%= f.input :photo_url %>
+      <%= f.button :submit, class: "btn btn-submit" %>
+    <% end %>
+  </div>
+</div>
