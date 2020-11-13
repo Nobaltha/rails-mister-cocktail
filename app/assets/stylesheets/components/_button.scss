@@ -23,3 +23,14 @@
   background: #1BCB7F;
   color: white;
 }
+
+.btn-back {
+  color: $fontc;
+  padding: 8px 24px;
+  font-weight: lighter;
+  transition: opacity 0.3s ease;
+}
+
+.btn-back:hover {
+  color: $hover;
+}
